@@ -1,0 +1,10 @@
+{
+  "name": "@terraform-ui/terraform-visualizer-e2e",
+  "version": "0.0.1",
+  "private": true,
+  "nx": {
+    "implicitDependencies": [
+      "@terraform-ui/terraform-visualizer"
+    ]
+  }
+}

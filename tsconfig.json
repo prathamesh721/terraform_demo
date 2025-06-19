@@ -1,0 +1,13 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compileOnSave": false,
+  "files": [],
+  "references": [
+    {
+      "path": "./apps/terraform-visualizer-e2e"
+    },
+    {
+      "path": "./apps/terraform-visualizer"
+    }
+  ]
+}
