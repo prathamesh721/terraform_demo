@@ -16,6 +16,12 @@
     "skipLibCheck": true,
     "strict": true,
     "target": "es2022",
-    "customConditions": ["development"]
+    "customConditions": ["development"],
+    "baseUrl": ".",
+    "paths": {
+      "@terraform-ui/config-loader": ["libs/config-loader/src/index.ts"],
+      "@terraform-ui/graph-renderer": ["libs/graph-renderer/src/index.ts"],
+      "@terraform-ui/state": ["libs/state/src/index.ts"]
+    }
   }
 }

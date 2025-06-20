@@ -6,7 +6,7 @@ import * as path from 'path';
 
 export default defineConfig(() => ({
   root: __dirname,
-  cacheDir: '../node_modules/.vite/graph-renderer',
+  cacheDir: '../../node_modules/.vite/config-loader',
   plugins: [
     react(),
     dts({
@@ -30,7 +30,7 @@ export default defineConfig(() => ({
     lib: {
       // Could also be a dictionary or array of multiple entry points.
       entry: 'src/index.ts',
-      name: '@terraform-ui/graph-renderer',
+      name: '@terraform-ui/config-loader',
       fileName: 'index',
       // Change this to the formats you want to support.
       // Don't forget to update your package.json as well.

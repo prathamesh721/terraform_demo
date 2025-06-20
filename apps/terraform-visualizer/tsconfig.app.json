@@ -32,13 +32,7 @@
   "include": ["src/**/*.js", "src/**/*.jsx", "src/**/*.ts", "src/**/*.tsx"],
   "references": [
     {
-      "path": "../../graph-renderer/tsconfig.lib.json"
-    },
-    {
       "path": "../../api-client/tsconfig.lib.json"
-    },
-    {
-      "path": "../../state/tsconfig.lib.json"
     }
   ]
 }

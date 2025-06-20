@@ -3,13 +3,7 @@
   "include": [],
   "references": [
     {
-      "path": "../../graph-renderer"
-    },
-    {
       "path": "../../api-client"
-    },
-    {
-      "path": "../../state"
     },
     {
       "path": "./tsconfig.app.json"
