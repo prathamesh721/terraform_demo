@@ -1,0 +1,4 @@
+{
+  "buildCommand": "npx nx build terraform-visualizer",
+  "outputDirectory": "dist/apps/terraform-visualizer"
+}
