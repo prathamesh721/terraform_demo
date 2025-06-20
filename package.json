@@ -2,7 +2,7 @@
   "name": "@terraform-ui/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": { "build": "nx build terraform-visualizer"},
   "private": true,
   "dependencies": {
     "@emotion/react": "^11.14.0",
